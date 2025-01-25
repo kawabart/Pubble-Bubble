@@ -1,0 +1,71 @@
+title Pubble Bubble
+author OmumbOrOmbOngO
+homepage https://www.puzzlescript.net/
+
+========
+OBJECTS
+========
+
+Background
+lightblue
+
+Wall
+brown
+
+Player
+blue
+
+=======
+LEGEND
+=======
+
+. = Background
+# = Wall
+P = Player
+
+=======
+SOUNDS
+=======
+
+================
+COLLISIONLAYERS
+================
+
+Background
+Player, Wall
+
+======
+RULES
+======
+
+[ action Player ] -> win
+
+==============
+WINCONDITIONS
+==============
+
+=======
+LEVELS
+=======
+
+############
+#..........#
+#..........#
+#...#......#
+#..........#
+#.p........#
+#..........#
+############
+
+############
+#..........#
+#..........#
+#...#......#
+#.pp.......#
+#.pp.......#
+#..........#
+############
+
+message THE END
+
+(v0.1.0)
