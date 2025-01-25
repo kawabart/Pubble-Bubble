@@ -9,6 +9,9 @@ OBJECTS
 Background
 lightblue
 
+Void
+black
+
 Wall
 brown
 
@@ -26,6 +29,7 @@ LEGEND
 # = Wall
 P = Player
 O = Blob
+X = Void
 
 =======
 SOUNDS
@@ -45,12 +49,14 @@ COLLISIONLAYERS
 Background
 Blob
 Player, Wall
+Void
 
 ======
 RULES
 ======
 
 [ action Player ] -> win
+[ > Player | Void ] -> [ | Void ]
 
 ==============
 WINCONDITIONS
@@ -98,15 +104,18 @@ LEVELS
 #..........#
 ############
 
-############
-#..........#
-#.......####
-#...#.......
-#.pp....####
-#.pp.......#
-#..........#
-############
+XXXXXXXXXXXXXX
+X############X
+X#..........#X
+X#.......####X
+X#...#.......X
+X#.pp....####X
+X#.pp.......#X
+X#..........#X
+X############X
+XXXXXXXXXXXXXX
+
 
 message THE END
 
-(v0.2.0)
+(v0.2.1)
