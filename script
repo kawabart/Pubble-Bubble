@@ -46,11 +46,12 @@ SOUNDS
 =======
 
 ( bubbly sounds )
-( explosion : 50290702 )
-( powerUp : 36385103 )
-( birdSound : 91418509 )
-( jump : 49532105 )
-( laserShoot : 52583701 )
+SFX0 36385103
+SFX1 60039905
+SFX2 50290702
+SFX3 91418509
+SFX4 52583701
+SFX5 49532105
 
 ================
 COLLISIONLAYERS
