@@ -7,7 +7,12 @@ OBJECTS
 ========
 
 Background
-lightblue
+lightblue #aad3e6
+00100
+01010
+10001
+00000
+00000
 
 Void
 black
@@ -16,10 +21,10 @@ Wall
 brown
 
 Player
-blue
+blue white lightblue
 .000.
-000.0
-00000
+01200
+02000
 00000
 .000.
 
@@ -123,4 +128,4 @@ XXXXXXXXXXXXXX
 
 message THE END
 
-(v0.2.1)
+(v0.3.1)
