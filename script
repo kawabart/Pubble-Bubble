@@ -1,4 +1,4 @@
-title Pubble Bubble 0.3.2
+title Pubble Bubble 0.4.0
 author OmumbOrOmbOngO
 homepage https://www.puzzlescript.net/
 
@@ -67,7 +67,7 @@ RULES
 ======
 
 [ action Player ] -> win
-[ > Player | Void ] -> [ | Void ]
+[ > Player | Void ] -> [ | Void ] SFX1
 
 ==============
 WINCONDITIONS
@@ -126,7 +126,4 @@ X#..........#X
 X############X
 XXXXXXXXXXXXXX
 
-
 message THE END
-
-(v0.3.2)
