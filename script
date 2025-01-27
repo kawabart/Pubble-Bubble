@@ -1,4 +1,4 @@
-title Pubble Bubble
+title Pubble Bubble 0.3.2
 author OmumbOrOmbOngO
 homepage https://www.puzzlescript.net/
 
@@ -29,7 +29,7 @@ blue white lightblue
 .000.
 
 Blob
-red
+pink
 
 =======
 LEGEND
@@ -46,7 +46,7 @@ SOUNDS
 =======
 
 ( bubbly sounds )
-SFX0 36385103
+StartLevel 36385103
 SFX1 60039905
 SFX2 50290702
 SFX3 91418509
@@ -79,14 +79,14 @@ All Player on Blob
 LEVELS
 =======
 
-############
-#..........#
-#..........#
-#...o......#
-#..........#
-#.p........#
-#..........#
-############
+( ############ )
+( #..........# )
+( #..........# )
+( #...o......# )
+( #..........# )
+( #.p........# )
+( #..........# )
+( ############ )
 
 ############
 #..........#
@@ -129,4 +129,4 @@ XXXXXXXXXXXXXX
 
 message THE END
 
-(v0.3.1)
+(v0.3.2)
