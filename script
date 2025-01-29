@@ -28,8 +28,13 @@ blue white lightblue
 00000
 .000.
 
-Blob
-pink
+Shape
+pink white #ff71fa
+.000.
+01200
+02000
+00000
+.000.
 
 =======
 LEGEND
@@ -38,7 +43,7 @@ LEGEND
 . = Background
 # = Wall
 P = Player
-O = Blob
+O = Shape
 X = Void
 
 =======
@@ -58,7 +63,7 @@ COLLISIONLAYERS
 ================
 
 Background
-Blob
+Shape
 Player, Wall
 Void
 
@@ -73,7 +78,7 @@ RULES
 WINCONDITIONS
 ==============
 
-All Player on Blob
+All Player on Shape
 
 =======
 LEVELS
