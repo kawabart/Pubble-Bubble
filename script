@@ -1,4 +1,4 @@
-title Pubble Bubble 0.5.0
+title Pubble Bubble 0.6.0
 author OmumbOrOmbOngO
 homepage https://www.puzzlescript.net/
 noaction
@@ -52,12 +52,21 @@ SOUNDS
 =======
 
 ( bubbly sounds )
+
 StartLevel 36385103
-SFX1 60039905
+ShowMessage 36385103
+Restart 91418509
+SFX1 600390905
+( SFX1 60039905 )
+( SFX1 60037905 )
+Undo 35382103
+TitleScreen 36382103
+
 SFX2 50290702
-SFX3 91418509
-SFX4 52583701
-SFX5 49532105
+SFX3 33333333
+SFX4 91418505
+SFX5 52583701
+SFX6 49532105
 
 ================
 COLLISIONLAYERS
@@ -73,6 +82,7 @@ RULES
 ======
 
 [ > Player | Void ] -> [ | Void ] SFX1
+late [ Player Shape ] -> SFX1
 
 ==============
 WINCONDITIONS
